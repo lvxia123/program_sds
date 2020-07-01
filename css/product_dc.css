@@ -1,0 +1,176 @@
+/* @media screen and (min-width: 578px){
+	
+}
+  
+
+@media screen and (min-width: 768px){
+	.header-bg {
+	    background-size: auto 100%;
+		height: 400px;
+	}
+}
+@media screen and (min-width: 922px){
+	.header-bg {
+	    background-size: auto 100%;
+		height: 400px;
+	}
+}
+ */
+.header-bg{
+	background: url(../load/idcbanner.jpg) no-repeat;
+	background-size: auto 400px; 
+	height: 400px;
+	width: 100%;
+	border: 1px solid #666;
+	position: relative;
+}
+.header-bg h2{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	color: white;
+	font: 37px bold;
+}
+.header-title .breadcrumb{
+	background-color: transparent;
+	border: 1px solid #666;
+	border-top: 0;
+}
+.header-title .breadcrumb-item a{
+	color: #0582cb;
+	text-decoration: none;
+}
+.header-title .breadcrumb-item + .breadcrumb-item::before {
+			  content: ">";
+			  color: #0582cb;
+}
+
+.pro_merit .machineroom .tab-content #shanghai,.pro_merit .machineroom .tab-content #beijing{
+	width: 1100px;height: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pro_merit .machineroom .tab-content img{
+	width: 100%;height: 100%;
+	display: flex;
+}
+.pro_merit .machineroom li{
+	display: inline-block;
+	width: 20%;height: 60px;	
+	position: relative;
+	left: 30%;
+	bottom: 40px;
+}
+.pro_merit .machineroom .nav-item a:hover,.pro_merit .machineroom .nav-item a:active{
+      color: #0582cb;
+      border: 1px solid #0582cb;
+      background-color: #c7e4ff;
+  }
+.pro_merit .machineroom .nav-item a{
+	width: 150px;height: 75px;
+	border: 1px solid #0582cb;
+	background-color: #fff;
+	color: #0582CB;
+	text-align: center;
+	line-height: 55px;
+	font-size: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.btn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: 0.87rem 2.93rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.15rem;	
+}
+
+.blow-up{
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+.blow-up:hover{
+	transform: scale(1.1);
+	-ms-transform:scale(1.1);     /* IE 9 */
+	-moz-transform:scale(1.1);     /* Firefox */
+	-webkit-transform:scale(1.1); /* Safari å’Œ Chrome */
+	-o-transform:scale(1.1);
+}
+/* 轮播图 */
+.carousel-indicators li{
+	width: 2.8rem;height: 1.8rem;
+	background-color: #0582cb;
+	top:-60px;
+	color: #000;
+}
+
+.carousel-indicators .active {
+  background-color: #0582cb;
+}
+
+
+
+.pro_merit .pro-address p{
+	margin: 0;padding: 0;
+	border-bottom: 1px solid #bbb;
+}
+.pro_merit .pro-address li{
+	height: 73px;
+	line-height: 73px;
+}
+.pro_merit .pro-address li a{
+	color:#0582cb;
+	text-decoration: none;
+}
+.pro_merit .IDX_adv .tab-content #IDXSH2,.pro_merit .IDX_adv .tab-content #IDXSH3,
+.pro_merit .IDX_adv .tab-content #IDXSH4,.pro_merit .IDX_adv .tab-content #IDXBJ2{
+	width: 600px;height: 400px;
+	overflow: hidden;
+}
+.pro_merit .IDX_adv .tab-content #IDXSH2 img,.pro_merit .IDX_adv .tab-content #IDXSH3 img,
+.pro_merit .IDX_adv .tab-content #IDXSH4 img,.pro_merit .IDX_adv .tab-content #IDXBJ2 img{
+	width: 100%;height: 100%;
+	display: flex;
+}
+.pro_merit .IDX_adv li{
+	display: inline-block;
+	width: 20%;height: 60px;	
+	position: relative;
+	bottom: 40px;
+}
+.pro_merit .IDX_adv .nav-item a:hover,.pro_merit .IDX_adv .nav-item a:active{
+      color: #0582cb;
+      border: 1px solid #0582cb;
+      background-color: #c7e4ff;
+  }
+.pro_merit .IDX_adv .nav-item a{
+	width: 150px;height: 75px;
+	border: 1px solid #0582cb;
+	background-color: #fff;
+	color: #0582CB;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+/* 媒体查询字体改变 */
+@media screen and (min-width: 578px){
+	.pro_merit .pro-address li {
+	    font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 980px){
+	.pro_merit .pro-address li {
+	    font-size: 16px;
+}

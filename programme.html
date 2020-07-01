@@ -1,0 +1,254 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/programme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div class="container-fluid header ">
+			<div class="header">
+				<div class=" navbar navbar-dark  navbar-expand-md">
+					<!-- 1.从来不隐藏的菜单项 -->
+					<a href="#" class="navbar-brand">
+						<img src="./themesbasic/images/logo.png" >
+					</a>
+					<!-- 2.按钮 小屏显示的按钮，大屏隐藏，折叠的激发按钮 -->
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#view">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- 3.菜单 小屏隐藏，大屏显示
+					       小屏纵向，大屏横向
+					 -->
+					<div id="view" class="collapse navbar-collapse">
+						 <ul id="card" class="navbar-nav breadcrumb bg-transparent">
+						 	<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s1">首页</a>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s2">产品方案</a>
+									</div>
+									<div id="s2" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">数据中心</a></p>
+											<p><a class="text-white font-sm" href="#">云服务</a></p>
+											<p><a class="text-white font-sm" href="#">增值服务</a></p>
+											<p><a class="text-white font-sm" href="#">客户关系</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s3">解决方案</a>
+									</div>
+									<div id="s3" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">期货行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">电子商务行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">商业银行托管解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">第三方支付行业</a></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s4">新闻动态</a>
+									</div>
+									<div id="s4" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">最新新闻</a></p>
+											<p><a class="text-white font-sm" href="#">重大新闻</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#s5">关于我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">公司简介</a></p>
+												<p><a class="text-white font-sm" href="#">管理团队</a></p>
+												<p><a class="text-white font-sm" href="#">投资关系</a></p>
+												<p><a class="text-white font-sm" href="#">资质与荣誉</a></p>
+												<p><a class="text-white font-sm" href="#">典型客户</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#">联系我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">联系我们</a></p>
+												<p><a class="text-white font-sm" href="#">加入我们</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item  breadcrumb-item">
+								<a class="text-white" href ="#">
+									<img src="themesbasic/img/search.png" >
+								</a>    
+							</li>       
+							<li class="nav-item breadcrumb-item">
+								<a class="text-white" href ="#">
+									访问申请
+								</a>    
+							</li>       
+							<li class="nav-item breadcrumb-item">
+								<a class="text-white" href ="#">
+									<img src="themesbasic/images/language.png" >
+									GB  
+								</a>    
+							</li>       
+							<li class="nav-item breadcrumb-item">
+								<a class="text-white" href="#">
+									登陆
+								</a>
+							</li>
+						</ul> 
+						 
+			        </div>
+			    </div>	
+			    
+			</div>
+			<div class="header-bg">
+				<h2 class="animate__fadeInDown">期货行业解决方案</h2>
+			</div>	
+			<div class="header-title">
+				<ul class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="#">首页</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#">解决方案</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#">期货行业解决方案</a>
+						</li>
+					</ul>
+			</div>
+			<div class="scheme">
+				<h2 class="text-center">方案概述</h2>
+				<p>&nbsp;</p>
+				<p >数讯与国内的四家期货交易所中两家中国金融期货交易、上海期货交易所所实现了裸光纤互联，为期货会员单位提供高速，健壮，安全，富有弹性的期货交易网络。</p>
+				<p>&nbsp;</p>
+				<p>凭借数讯与交易所良好的合作关系与资源优势，众多期货会员单位依托数讯金融平台实现了与各大交易所快速、稳定的互联接入。同时，数讯高标准数据中心以及各项定制化的服务，也为各期货会员单位提供包括数据中心托管、网络接入、运维服务、云计算等全方面<span lang="EN-US">IT</span>服务。</p>
+			</div>
+			<div class="bg-color p-5">
+				<h2 class="text-center">数据中心托管</h2>
+				<p>作为中国领先的数据中心服务提供商，上海数讯以专业可靠的数据中心解决方案和服务为广大企业的信息化建设提供了强有力的支持。上海数讯<span lang="EN-US">IDX</span>数据中心拥有一整套安全可靠的基础设施和运维管理服务体系，可提供客户<span lang="EN-US">99.995%</span>的电力保障。数讯期货行业解决方案具备以下特点：</p>
+				<div class="row no-gutters justify-content-center">
+					<div class="col-sm-4 col-lg-2 p-2">
+						<img class="data-animate" src="load/icon01.png" >
+						<p class="p-2">高标准设计，符合期货行业监管合规要求</p>
+					</div>
+					<div class="col-sm-4 col-lg-2 p-2">
+						<img class="data-animate" src="load/icon13.png" >
+						<p class="p-2">充沛的网络资源、电信、联通、移动双路由接入</p>
+					</div>
+					<div class="col-sm-4 col-lg-2 p-2">
+						<img class="data-animate" src="load/icon11.png" >
+						<p class="p-2">中金所、上期所裸光纤互联</p>
+					</div>
+					<div class="col-sm-4 col-lg-2 p-2">
+						<img class="data-animate" src="load/icon25.png" >
+						<p class="p-2">独立的期货区域、独立监控和门禁，可定制VIP区域</p>
+					</div>
+					<div class="col-sm-4 col-lg-2 p-2">
+						<img class="data-animate" src="./load/icon-2.png" >
+						<p class="p-2">专业的运维服务，专属行业服务经理、定制化管理流程、服务规范等服务</p>
+					</div>
+				</div>
+			</div>
+		    <div class="text-center p-5">
+				<h2>期货金融网</h2>
+				<p>数讯与国内仅有的四家期货交易所中的中国金融期货交易所（以下简称中金所）、上海期货交易所（上期所）实现了裸光纤互联，可为期货公司提供高速，健壮，安全，富有弹性的期货交易网络。</p>
+				<p>&nbsp;</p>
+				<p>同时，大连飞创与郑州易盛在数讯金桥数据中心均有节点，期货会员单位可通过楼内跳线连接至交易所。</p>
+				<p>&nbsp;</p>
+				<p >
+					<img src="load/qihuo.png" alt="" width="900" height="558">
+				</p>
+			</div>
+			<div class="bg-color text-center p-5">
+				<h2>云计算</h2>
+				<p>数讯自主研发的并搭建了自己的私有云平台，该平台具有数讯自己研发并搭建了自己的私有云平台，这个平台具有超融合、跨数据中心、高可靠、灵活部署、安全合规等特性。</p>
+				<p>&nbsp;</p>
+				<p>
+					<img style="display: block; margin-left: auto; margin-right: auto;" src="load/a1.png" alt="" width="900" height="390">
+				</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p style="text-align: center;">
+					<span style="font-size: 30px;">典型客户云服务应用场景</span>
+				</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<p style="text-align: center;">&nbsp;</p>
+				<div>
+					<div id="carouse" class="carousel" data-ride="carousel">
+						<!-- 轮播的图片 -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="car-bg1">
+									VDI（虚拟桌面）
+								</div>
+								<div class="car-bg2">
+									仿真测试系统
+								</div>
+								<div class="car-bg1">
+									主席灾备+易胜行情APP
+								</div>
+							</div>
+							<div class="carousel-item">
+								
+							</div>
+						</div>
+						<!-- 轮播显示器 -->
+						<ul class="carousel-indicators">
+							<li data-slide-to="0" data-target="#carouse" class="active"></li>
+							<li data-slide-to="1" data-target="#carouse"></li>
+						</ul>
+						<!-- 左右箭头 -->
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

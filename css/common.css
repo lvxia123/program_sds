@@ -1,0 +1,29 @@
+
+/* 引用头部的样式 */
+/* .header,.footer{
+	height: 80px;
+	width: 100%;
+	border: 0;
+	background-color: transparent;
+}
+.footer{
+	height: 400px;
+}
+.container-fluid{
+	z-index: 0;
+} */
+body {
+    background: #fff;
+    color: #555;
+    font-size: 16px;
+    font-family: Source Han Sans CN,Source Han Sans SC,"arial", Noto Sans CJK SC, sans-serif, Myriad Pro, M    icrosoft YaHei,STXihei, sans-serif,Verdana;
+}
+.data-animate:hover{
+	animation: bounce 1s linear;
+	cursor: pointer;
+}
+.fadeInLeft:hover{
+	animation: fadeInLeft 1s linear;
+}
+.font{font-size: 20px;}
+.font-sm{font-size: 16px;}

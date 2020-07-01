@@ -1,0 +1,300 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/news.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="header">
+				<div class=" navbar navbar-dark  navbar-expand-md">
+					<!-- 1.从来不隐藏的菜单项 -->
+					<a href="#" class="navbar-brand">
+						<img src="./themesbasic/images/logo.png" >
+					</a>
+					<!-- 2.按钮 小屏显示的按钮，大屏隐藏，折叠的激发按钮 -->
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#view">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- 3.菜单 小屏隐藏，大屏显示
+					       小屏纵向，大屏横向
+					 -->
+					<div id="view" class="collapse navbar-collapse">
+						 <ul id="card" class="navbar-nav breadcrumb bg-transparent">
+						 	<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s1">首页</a>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s2">产品方案</a>
+									</div>
+									<div id="s2" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">数据中心</a></p>
+											<p><a class="text-white font-sm" href="#">云服务</a></p>
+											<p><a class="text-white font-sm" href="#">增值服务</a></p>
+											<p><a class="text-white font-sm" href="#">客户关系</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s3">解决方案</a>
+									</div>
+									<div id="s3" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">期货行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">电子商务行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">商业银行托管解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">第三方支付行业</a></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s4">新闻动态</a>
+									</div>
+									<div id="s4" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">最新新闻</a></p>
+											<p><a class="text-white font-sm" href="#">重大新闻</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#s5">关于我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">公司简介</a></p>
+												<p><a class="text-white font-sm" href="#">管理团队</a></p>
+												<p><a class="text-white font-sm" href="#">投资关系</a></p>
+												<p><a class="text-white font-sm" href="#">资质与荣誉</a></p>
+												<p><a class="text-white font-sm" href="#">典型客户</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#">联系我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">联系我们</a></p>
+												<p><a class="text-white font-sm" href="#">加入我们</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item breadcrumb-item location search">
+									<a class="text-white" href ="#">
+										<form action="#" method="get">
+										 	<input type="text" class="nav-search-input" placeholder="搜索" name="keyword">
+										 	<img src="themesbasic/img/search.png">
+										</form>
+									</a>
+								</li>       
+							<li class="nav-item breadcrumb-item location">
+									<a class="text-white" href ="#">
+										访问申请
+									</a>    
+								</li>       
+							<li class="nav-item breadcrumb-item location">
+									<a class="text-white" href ="#">
+										<img src="themesbasic/images/language.png" >
+										GB  
+									</a>    
+								</li>       
+							<li class="nav-item breadcrumb-item location">
+									<a class="text-white" href="#">
+										登陆
+									</a>
+								</li>
+						</ul> 
+						 
+			        </div>
+			    </div>	
+			    
+			</div>
+		    <div class="header-bg">
+		    	<h2>新闻动态</h2>
+		    </div>	
+		    <div class="header-title">
+		    	<ul class="breadcrumb">
+		    			<li class="breadcrumb-item">
+		    				<a href="#">首页</a>
+		    			</li>
+		    			<li class="breadcrumb-item">
+		    				<a href="#">新闻动态</a>
+		    			</li>
+		    	</ul>
+		    </div>
+			<div class="pro_merit text-center p-5">
+				<h2>欢迎您来到数讯新闻中心</h2>
+				<p>为您提供最新的行业资讯及数讯信息的最新动态</p>
+				<br>
+				<br>
+				<ul class="nav nav-pills ">
+					<li class="nav-item">
+						<a data-toggle="pill" href="#recent" class="nav-link active d-inline-flex">最近新闻</a>
+					</li>
+					<li class="nav-item">
+						<a data-toggle="pill" href="#important" class="nav-link d-inline-flex">重大新闻</a>
+					</li>				
+				</ul>
+				<div class="row no-gutters">
+					<div class="new-items col-sm-12 col-lg-6">
+						<img class="blow-up d-flex" src="load/TIM&e5&9b&be&e7&89&8720190225125506.png" >
+					</div>
+					<div class="col-sm-12 col-lg-6 pl-4">
+						<h2 class="py-4 font">服务热线变更公告</h2>
+						<p>2020-04-21</p>
+						<p class="py-2">尊敬的数讯公司全体客户：
+						&nbsp;
+						为了提高服务质量、更好地服务用户，上...</p>
+						<a href="#">了解更多</a>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="new-items col-sm-12 col-lg-6">
+						<img class="blow-up d-flex" src="load/new.png" >
+					</div>
+					<div class="col-sm-12 col-lg-6 pl-4">
+						<h2 class="py-4 font">国家安全教育日</h2>
+						<p>2020-04-14</p>
+						<p class="py-2">国家安全教育日
+						&nbsp;
+						指导单位：上海市公安局浦东...</p>
+						<a href="#">了解更多</a>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="new-items col-sm-12 col-lg-6">
+						<img class="blow-up d-flex" src="load/office.png" >
+					</div>
+					<div class="col-sm-12 col-lg-6 pl-4">
+						<h2 class="py-4 font">跃升引擎（一）| iDESK灾备坐席服务，打造企业无缝工作台！</h2>
+						<p>2020-03-04</p>
+						<p class="py-2">iDESK灾备坐席服务 加持疫情应对策略培训 数讯为您提供 特...</p>
+						<a href="#">了解更多</a>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="new-items col-sm-12 col-lg-6">
+						<img class="blow-up d-flex" src="load/640.jpeg" >
+					</div>
+					<div class="col-sm-12 col-lg-6 pl-4">
+						<h2 class="py-4 font">闻令而动，共同战“疫”！</h2>
+						<p>2020-02-16</p>
+						<p class="py-2">2020年1月24日，上海启动重大突发公共卫生事件一级响应机...</p>
+						<a href="#">了解更多</a>
+					</div>
+				</div>
+			</div>	
+		    <div class="page">
+				<ul class="pagination d-flex">
+					<li class="page-item active">
+						<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">2</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">4</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">5</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">&gt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	        <div id="footer">
+	        	     <!-- 尾部开始 -->
+	        	    <div class="footer">
+	        	    	<div class="footer-content limit">
+	        	    		<ul>
+	        	    			<li>
+	        	    				<h2>资质荣誉</h2>
+	        	    				<div class="footer-content-a">
+	        	    					<a href="#">资质与荣誉</a>
+	        	    				</div>
+	        	    			</li>
+	        	    			<li>
+	        	    				<h2>新闻动态</h2>
+	        	    				<div class="footer-content-a">
+	        	    					<a href="#">最新新闻</a>
+	        	    					<a href="#">重大新闻</a>
+	        	    				</div>
+	        	    			</li>
+	        	    			<li class="footer-contact">
+	        	    				<h2>联系我们</h2>
+	        	    				<div class="footer-content-a">
+	        	    					<p><img src="themesbasic/images/map-icon.png" class="dz">上海张江高科技园区郭守敬路498号23幢3楼</p>
+	        	    					<p><img src="themesbasic/images/phone-icon.png" class="phone">86-21-50800818 / 400-000-9890</p>
+	        	    				</div>
+	        	    			</li>
+	        	    			<li class="footer-about">
+	        	    				<!--<h2>联系我们</h2>-->
+	        	    				<!--二维码-->
+	        	    				<img src="themesbasic/images/QR-Code.jpg" class="qr-code">
+	        	    				<p>关于我们</p>
+	        	    			</li>
+	        	    			<li class="footer-btn">
+	        	    				<!--<h2>联系我们</h2>-->
+	        	    				<!--btn-->
+	        	    				<a href="/site/document"><span><img src="themesbasic/images/doc.png"></span>文档中心</a>
+	        	    				<a href="/site/join"><span><img src="themesbasic/images/job.png"></span>工作机会</a>
+	        	    			</li>
+	        	    		</ul>
+	        	    	</div>
+	        	    	<div class="footer-bottom">
+	        	    		<div class="footer-bottom-content limit">
+	        	    			<span><a href="#" target="_blank">沪公安网备 31011502002397号</a></span>
+	        	    			<span><a href="#" target="_blank">沪ICP备11008961号-1</a></span><span>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2018 上海数讯信息技术有限公司 All rights reserved. Powered by </span>
+	        	    		</div>
+	        	    	</div>
+	        	    </div>
+	        	    <!-- 尾部结束 -->    
+	        	</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,46 @@
+.header-bg{
+	background: url(../load/programme-banner.jpg) no-repeat;
+	background-size: auto 400px; 
+	height: 400px;
+	width: 100%;
+	border: 1px solid #666;
+	position: relative;
+}
+.header-bg h2{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	color: white;
+	font: 37px bold;
+}
+.header-title .breadcrumb{
+	background-color: transparent;
+	border: 1px solid #666;
+	border-top: 0;
+}
+.header-title .breadcrumb-item a{
+	color: #0582cb;
+	text-decoration: none;
+}
+.header-title .breadcrumb-item + .breadcrumb-item::before {
+			  content: ">";
+			  color: #0582cb;
+}
+.scheme{
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+}
+.bg-color{
+	background-color: #f7f7f7;
+}
+
+
+.bg-color .data-animate{
+	
+}
+#carouse .car-bg1{
+	background: url(../load/adv-1.jpg) no-repeat;
+	
+}
+

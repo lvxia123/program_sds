@@ -1,0 +1,28 @@
+.header-bg{
+	background: url(../load/contactbanner.jpg) no-repeat;
+	background-size: auto 400px; 
+	height: 400px;
+	width: 100%;
+	border: 1px solid #666;
+	position: relative;
+}
+.header-bg h2{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	color: white;
+	font: 37px bold;
+}
+.header-title .breadcrumb{
+	background-color: transparent;
+	border: 1px solid #666;
+	border-top: 0;
+}
+.header-title .breadcrumb-item a{
+	color: #0582cb;
+	text-decoration: none;
+}
+.header-title .breadcrumb-item + .breadcrumb-item::before {
+			  content: ">";
+			  color: #0582cb;
+}

@@ -1,0 +1,338 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/product_dc.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		
+		<div class="container-fluid">
+		    <div class="header">
+				<div class=" navbar navbar-dark  navbar-expand-md">
+					<!-- 1.从来不隐藏的菜单项 -->
+					<a href="#" class="navbar-brand">
+						<img src="./themesbasic/images/logo.png" >
+					</a>
+					<!-- 2.按钮 小屏显示的按钮，大屏隐藏，折叠的激发按钮 -->
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#view">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- 3.菜单 小屏隐藏，大屏显示
+					       小屏纵向，大屏横向
+					 -->
+					<div id="view" class="collapse navbar-collapse">
+						 <ul id="card" class="navbar-nav breadcrumb bg-transparent">
+						 	<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s1">首页</a>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s2">产品方案</a>
+									</div>
+									<div id="s2" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">数据中心</a></p>
+											<p><a class="text-white font-sm" href="#">云服务</a></p>
+											<p><a class="text-white font-sm" href="#">增值服务</a></p>
+											<p><a class="text-white font-sm" href="#">客户关系</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s3">解决方案</a>
+									</div>
+									<div id="s3" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">期货行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">电子商务行业解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">商业银行托管解决方案</a></p>
+											<p><a class="text-white font-sm" href="#">第三方支付行业</a></p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card-header p-1 m-1">
+										<a data-toggle="collapse" class="nav-link text-white font" href="#s4">新闻动态</a>
+									</div>
+									<div id="s4" class="collapse" data-parent="#card">
+										<div  class="card-body">
+											<p><a class="text-white font-sm" href="#">最新新闻</a></p>
+											<p><a class="text-white font-sm" href="#">重大新闻</a></p>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#s5">关于我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">公司简介</a></p>
+												<p><a class="text-white font-sm" href="#">管理团队</a></p>
+												<p><a class="text-white font-sm" href="#">投资关系</a></p>
+												<p><a class="text-white font-sm" href="#">资质与荣誉</a></p>
+												<p><a class="text-white font-sm" href="#">典型客户</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="nav-item">
+								<div class="card">
+									<div class="card">
+										<div class="card-header p-1 m-1">
+											<a data-toggle="collapse" class="nav-link text-white font" href="#">联系我们</a>
+										</div>
+										<div id="s5" class="collapse" data-parent="#card">
+											<div  class="card-body">
+												<p><a class="text-white font-sm" href="#">联系我们</a></p>
+												<p><a class="text-white font-sm" href="#">加入我们</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+						    <li class="nav-item breadcrumb-item location search">
+						    		<a class="text-white" href ="#">
+						    			<form action="#" method="get">
+						    			 	<input type="text" class="nav-search-input" placeholder="搜索" name="keyword">
+						    			 	<img src="themesbasic/img/search.png">
+						    			</form>
+						    		</a>
+						    	</li>       
+						    <li class="nav-item breadcrumb-item location">
+						    		<a class="text-white" href ="#">
+						    			访问申请
+						    		</a>    
+						    	</li>       
+						    <li class="nav-item breadcrumb-item location">
+						    		<a class="text-white" href ="#">
+						    			<img src="themesbasic/images/language.png" >
+						    			GB  
+						    		</a>    
+						    	</li>       
+						    <li class="nav-item breadcrumb-item location">
+						    		<a class="text-white" href="#">
+						    			登陆
+						    		</a>
+						    	</li>
+						    
+						</ul> 
+						 
+			        </div>
+			    </div>	
+			    
+			</div>
+			<div class="header-bg">
+				<h2>高品质IDX数据中心 品质奠基高度</h2>
+			</div>	
+			<div class="header-title">
+				<ul class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="#">首页</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#">产品服务</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#">数据中心</a>
+						</li>
+					</ul>
+			</div>
+			<div class="pro_merit text-center p-5">
+				<h2>我们的优势</h2>
+				<p>中立运营商、丰富云产品、多重安全保护、绿色环保节能</p>
+				<div class="row no-gutters">
+					<div class="col-sm-6 col-lg-3">
+						<img class="data-animate py-3" src="themesbasic/images/idc-icon1.png" >
+						<p>中立运营商、丰富云产品、多重安全保护、绿色环保节能</p>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<img class="data-animate py-3" src="themesbasic/images/idc-icon2.png" >
+						<p>丰富云产品</p>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<img class="data-animate py-3" src="themesbasic/images/idc-icon3.png" >
+						<p>多重安全保护</p>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<img class="data-animate py-3" src="themesbasic/images/idc-icon4.png" >
+						<p>绿色环保节能</p>
+					</div>
+				</div>
+				<div class="p-5">
+					<h2 class="IDX_data"><img src="load/zy1.png">数据中心分布</h2>
+					<p class="p-3">致力于数据通信、网络增值服务及信息系统集成等业务</p>
+				</div>
+				<div class="machineroom">
+					<ul class="nav nav-pills ">
+						<li class="nav-item">
+							<a data-toggle="pill" href="#shanghai" class="nav-link active d-inline-flex">上海</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" href="#beijing" class="nav-link d-inline-flex">北京</a>
+						</li>				
+					</ul>
+					<!-- 对应的内容 -->
+					<div class="tab-content">
+						<div id="shanghai" class="tab-pane active">
+							<img class="blow-up d-flex" src="load/bjidx1.jpg" >
+						</div>
+						<div id="beijing" class="tab-pane">
+							<img class="blow-up d-flex" src="load/jqjifang-1.jpg" >
+						</div>
+					</div>                </div>	    
+				<div class="pro-address">
+					<ul class="list-unstyled text-left">
+						<li>
+							<p>IDX SH2：上海市浦东新区芳春路 400 号蓝光科技园 4 号楼
+							<a href="#">查看地图</a>
+							</p>									
+						</li>
+						<li>
+							<p>IDX SH3：上海市浦东新区秦桥路 368 号
+							<a href="#">查看地图</a>
+							</p>									
+						</li>
+						<li>
+							<p>IDX SH4：上海市浦东新区芳春路 400 号蓝光科技园 3 号楼
+							<a href="/site/idcDetail/195">查看地图</a>
+							</p>									
+						</li>
+					</ul>
+				</div>
+			    <div class="IDX_adv">
+					<h2>机房优势</h2>
+					<p>高标准、高稳定、高保障、绿色节能、高可用、高安全</p>
+					<br>
+					<br>
+					<ul class="nav nav-pills d-flex justify-content-center">
+						<li class="nav-item px-3">
+							<a data-toggle="pill" href="#IDXSH2" class="nav-link active d-inline-flex">IDX SH2</a>
+						</li>
+						<li class="nav-item px-3">
+							<a data-toggle="pill" href="#IDXSH3" class="nav-link d-inline-flex">IDX SH3</a>
+						</li>
+						<li class="nav-item px-3">
+							<a data-toggle="pill" href="#IDXSH4" class="nav-link d-inline-flex">IDX SH4</a>
+						</li>
+						<li class="nav-item px-3">
+							<a data-toggle="pill" href="#IDXBJ2" class="nav-link d-inline-flex">IDX BJ2</a>
+						</li>				
+					</ul>
+					<!-- 对应的内容 -->
+					<div class="tab-content row no-gutters">
+						<div id="IDXSH2" class="tab-pane active col-sm-12 col-lg-6">
+							<img class="blow-up d-flex" src="load/advantage-pic1.jpg" >
+						</div>
+						<div id="IDXSH3" class="tab-pane col-sm-12 col-lg-6">
+							<img class="blow-up d-flex" src="load/IDX2-2.jpg" >
+						</div>
+						<div id="IDXSH4" class="tab-pane col-sm-12 col-lg-6">
+							<img class="blow-up d-flex" src="load/advantage-pic2.jpg" >
+						</div>
+						<div id="IDXBJ2" class="tab-pane col-sm-12 col-lg-6">
+							<img class="blow-up d-flex" src="load/jqjifang-1.jpg" >
+						</div>
+						
+						<div class="col-sm-12 col-lg-6 p-5">
+							<div>
+								<img src="load/zy2.png" >
+							</div>
+							<div class="text-left">
+								<p class="p-3">
+									-顶尖配置：<span lang="EN-US"> Tier4 </span>标准建造，全冗余设计，满足高端用户对数据中心要求<br>
+									-高性能机柜：充足电力支持，支撑高性能数据运算<br>
+									-专业服务：企业级数据中心定制，全生命周期管理<br>
+									-互联互通：多家运营商骨干网络直连，品质卓越
+								</p>
+								<div class="row no-gutters justify-content-center">
+									<div><a class="m-1 p-3 visit-btn btn btn-info" href="#">预约参观或测试</a></div>
+									<div><a class="m-1 p-3 btn btn-info" href="#">查看位置</a></div>
+									<div><a class="m-1 p-3 btn btn-info" href="#">了解更多</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				     <!-- 尾部开始 -->
+				    <div class="footer">
+				    	<div class="footer-content limit">
+				    		<ul>
+				    			<li>
+				    				<h2>资质荣誉</h2>
+				    				<div class="footer-content-a">
+				    					<a href="#">资质与荣誉</a>
+				    				</div>
+				    			</li>
+				    			<li>
+				    				<h2>新闻动态</h2>
+				    				<div class="footer-content-a">
+				    					<a href="#">最新新闻</a>
+				    					<a href="#">重大新闻</a>
+				    				</div>
+				    			</li>
+				    			<li class="footer-contact">
+				    				<h2>联系我们</h2>
+				    				<div class="footer-content-a">
+				    					<p><img src="themesbasic/images/map-icon.png" class="dz">上海张江高科技园区郭守敬路498号23幢3楼</p>
+				    					<p><img src="themesbasic/images/phone-icon.png" class="phone">86-21-50800818 / 400-000-9890</p>
+				    				</div>
+				    			</li>
+				    			<li class="footer-about">
+				    				<!--<h2>联系我们</h2>-->
+				    				<!--二维码-->
+				    				<img src="themesbasic/images/QR-Code.jpg" class="qr-code">
+				    				<p>关于我们</p>
+				    			</li>
+				    			<li class="footer-btn">
+				    				<!--<h2>联系我们</h2>-->
+				    				<!--btn-->
+				    				<a href="/site/document"><span><img src="themesbasic/images/doc.png"></span>文档中心</a>
+				    				<a href="/site/join"><span><img src="themesbasic/images/job.png"></span>工作机会</a>
+				    			</li>
+				    		</ul>
+				    	</div>
+				    	<div class="footer-bottom">
+				    		<div class="footer-bottom-content limit">
+				    			<span><a href="#" target="_blank">沪公安网备 31011502002397号</a></span>
+				    			<span><a href="#" target="_blank">沪ICP备11008961号-1</a></span><span>Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2018 上海数讯信息技术有限公司 All rights reserved. Powered by </span>
+				    		</div>
+				    	</div>
+				    </div>
+				    <!-- 尾部结束 -->    
+				</div>
+			
+		</div>
+		
+	</body>
+</html>
