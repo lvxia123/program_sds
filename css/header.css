@@ -15,7 +15,7 @@
 .header .location{
 	position: relative;
 	top: 20px;
-	left: 20%
+	left: 60%
 }
 .header .navbar-brand {
   position: absolute;
@@ -90,7 +90,7 @@
 	border: 1px solid #eee;
 	padding-left: 5px;
 }
-.header .breadcrumb-item 
+
 .header .nav-search-input{
 	height: 15px;
 	width: 0;
